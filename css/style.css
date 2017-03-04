@@ -1,0 +1,181 @@
+body {
+  background-color: red;
+}
+
+.container {
+  width: 100%
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.heading {
+  flex-grow: 1;
+  width: 57%;
+  margin: 5% 5% 5% 5%;
+
+}
+
+h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+  display: block;
+  margin: 10px 0 10px 10px;
+  color: white;
+}
+
+#name:hover {
+  text-decoration: underline;
+}
+
+#name {
+  cursor: pointer;
+}
+
+
+#line1 {
+  padding: 66px;
+}
+#line2a {
+  padding: 10px;
+}
+
+#line2 {
+  padding: 182px;
+}
+
+#line3 {
+  padding-left: 265px
+}
+
+
+#hidden-text {
+  display: none;
+  font-size: 30px;
+  color: #ffda46;
+  font-style: italic;
+  text-transform:uppercase;
+}
+
+
+
+
+
+.film-content {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 80px;
+
+}
+
+.film-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.film-box {
+  width:210px;
+  margin: 10px;
+  /*height: 301px;*/
+  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+}
+
+/*#film1 {
+  width: 400px;
+}
+
+#film2 {
+  width: 550px;
+}
+
+#film3 {
+  width: 400px;
+}
+
+#film4 {
+  width: 600px;
+}*/
+.fa {
+  font-size: 80px;
+  padding: 25%;
+  color: black;
+
+}
+
+#oats {
+  display: none;
+}
+
+#otis {
+  display: none;
+}
+
+#saatsuma {
+  display: none;
+}
+
+#sister {
+  display: none;
+}
+
+.hover {
+  background-color: transparent;
+  width:auto;
+}
+
+.hidden {
+  display: none;
+  font-size: 12px;
+  font-family: sans-serif;
+  padding: 20px;
+  text-transform: capitalize;
+  color: #ffda46
+}
+
+.hidden:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 50px;
+  padding-left: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: sans-serif;
+
+}
+
+.clients {
+  display:inline-block;
+  padding: 25px;
+}
+
+h3 {
+  font-size: 14px
+  color: white;
+}
+
+ul {
+  line-height:25px;
+  font-size: 16px;
+}
+
+ul:hover {
+  color:#ffda46;
+}
