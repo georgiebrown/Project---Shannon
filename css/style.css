@@ -27,12 +27,8 @@ h1 {
 
 #name:hover {
   text-decoration: underline;
-}
-
-#name {
   cursor: pointer;
 }
-
 
 #line1 {
   padding: 66px;
