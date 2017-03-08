@@ -10,7 +10,7 @@ body {
 
 }
 
-.heading {
+header {
   flex-grow: 1;
   width: 57%;
   margin: 5% 5% 5% 5%;
@@ -125,6 +125,10 @@ h1 {
 }
 
 #sister {
+  display: none;
+}
+
+#henrik {
   display: none;
 }
 
